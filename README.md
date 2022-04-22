@@ -1,4 +1,7 @@
 # Online Quiz
+
+no momento apenas traduzi este trabalho afim de subir de forma rapida para ajudar uma escola publica a ter um sistema de provas online
+
 ![developer](https://img.shields.io/badge/Developed%20By%20%3A-Sumit%20Kumar-red)
 ---
 ## screenshots
