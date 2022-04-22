@@ -17,16 +17,16 @@
     
   </style>
 </head>
-<h3 style="text-align:center">Fill Salary Of Teacher</h3>
+<h3 style="text-align:center">Preencher rendimento Do Professor</h3>
 <form method="POST" autocomplete="off" style="margin:100px;margin-top: 0px;">
     {%csrf_token%}
     <div class="form-group">
-      <label for="salary">Salary</label>
+      <label for="salary">Rendimento</label>
       {% render_field teacherSalary.salary class="form-control" placeholder="5000" %}
     </div>
     
 
-    <button type="submit" class="btn btn-primary">Approve</button>
+    <button type="submit" class="btn btn-primary">Aprovado</button>
   </form>
 <br><br><br>
 {% endblock content %}

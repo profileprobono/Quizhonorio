@@ -39,20 +39,20 @@
 <div>
   <form method="post"  autocomplete="off" enctype="multipart/form-data" style="margin-left:200px;margin-right:200px;">
       {% csrf_token %}
-        <label for="first_name">First Name</label>
+        <label for="first_name">Nome</label>
         {% render_field userForm.first_name class="form-control" placeholder="First Name" %}
-        <label for="last_name">Last Name</label>
+        <label for="last_name">Sobrenome</label>
         {% render_field userForm.last_name class="form-control" placeholder="Last Name" %}
-          <label for="mobile">Mobile</label>
+          <label for="mobile">Telefone</label>
           {% render_field teacherForm.mobile class="form-control" placeholder="Mobile" %}
-            <label for="address">Address</label>
+            <label for="address">Endereço</label>
           {% render_field teacherForm.address class="form-control" placeholder="Address" %}
           
         <label for="username">Username</label>
         {% render_field userForm.username class="form-control" placeholder="Username" %}
           <label for="password">Password</label>
         {% render_field userForm.password class="form-control" placeholder="Password" %} <br><br>
-        <label for="profile_pic">Profile Picture</label>
+        <label for="profile_pic">Foto de Perfil</label>
           {% render_field teacherForm.profile_pic class="form-control" placeholder="Profile Picture" %}
 <br><br>
     <input type="submit" value="Update">

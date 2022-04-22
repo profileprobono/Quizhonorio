@@ -13,21 +13,21 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   a:link {
         text-decoration: none;
-      }
+        }
     
   </style>
 </head>
-<h2 style="text-align:center; color:blue;">ADD COURSE</h2>
+<h2 style="text-align:center; color:blue;">ADD Questionario</h2>
 <form method="POST" autocomplete="off" style="margin:100px;margin-top: 0px;">
     {%csrf_token%}
     <div class="form-group">
-      <label for="course_name">Course Name</label>
+      <label for="course_name">Nome do Tema</label>
       {% render_field courseForm.course_name class="form-control" placeholder="Java" %}
 
-      <label for="question_number">Total Question</label>
+      <label for="question_number">Total de Questões </label>
       {% render_field courseForm.question_number class="form-control" placeholder="10" %}
 
-      <label for="total_marks">Total Marks</label>
+      <label for="total_marks">Total de Acertos </label>
       {% render_field courseForm.total_marks class="form-control" placeholder="50" %}
     </div>
     
